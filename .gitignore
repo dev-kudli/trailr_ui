@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit cache and logs
+.streamlit/cache/
+.streamlit/config.toml
+.streamlit/credentials.toml
+.streamlit/*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Python environment files
+*.egg-info/
+.eggs/
+*.env
+*.venv
+*.bak
+*.log
+
+# Output and uploads
+output/
+uploads/
+*.sqlite3
+*.db
+
+# Pytest
+htmlcov/
+.coverage
+.cache
+
+# Compiled C files
+*.so
+
+# Pycharm
+.idea/
+
+# Secrets or API keys
+*.secret
+*.key
+*.pem
+.env.local
+.env.*
+
+# Node modules (if you're using frontend assets)
+node_modules/

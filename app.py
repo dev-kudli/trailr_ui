@@ -97,6 +97,7 @@ else:
                     for idx, recruiter in enumerate(recruiters[0:3]):
                         name = recruiter.get('name') if job.get('name') and len(recruiter.get('name')) <= 15 else recruiter.get('short_name')
                         initials = ''.join([part[0] for part in recruiter.get('name', 'NA').split()[:2]]).upper()
+                        title = recruiter.get('title') or "title unknown"
                         top_margin = "40px" if idx == 0 else "0px"
                         st.markdown(
                             f"""
@@ -129,7 +130,7 @@ else:
                                     <div>
                                         <div style="color: white; font-weight: 600; font-size: 14px; margin-bottom: 1px;">{name}</div>
                                         <div style="color: #cccccc; font-size: 11px; font-style: italic; margin-top: -5px; line-height: 12px">
-                                            {recruiter.get('title', 'No Title')}
+                                            {title}
                                         </div>
                                     </div>
                                 </div>

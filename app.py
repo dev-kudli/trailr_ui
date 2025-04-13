@@ -129,8 +129,8 @@ else:
                                     <div>
                                         <div style="color: white; font-weight: 600; font-size: 14px; margin-bottom: 1px;">{name}</div>
                                         <div style="color: #cccccc; font-size: 11px; font-style: italic; margin-top: -5px; line-height: 12px">
-                                        {recruiter.get('title', 'No Title')}
-                                    </div>
+                                            {recruiter.get('title', 'No Title')}
+                                        </div>
                                     </div>
                                 </div>
                             </a>
